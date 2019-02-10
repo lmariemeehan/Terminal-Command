@@ -14,7 +14,7 @@ module.exports.touch = () => {
   fs.writeFile('mynewfile.txt', 'Here is some new content', 'utf8', (err) => {
     if (err) throw err;
     console.log('Saved');
-  )};
+  });
 };
 
 module.exports.mkdir = () => {
